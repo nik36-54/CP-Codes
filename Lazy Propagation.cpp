@@ -188,6 +188,9 @@ public:
 };
 
 //*********************************************************************************************
+//Coin flip Question : a binary array of coins 1-heads 0-tails. So we have to find b/w (l,r) type1-how many heads are present and 
+//type2-flip the coin in (l,r) ranges. 
+
 class ST {
 	vector<int> seg, lazy; 
 public: 
